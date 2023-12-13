@@ -1,0 +1,16 @@
+.header-content h1 {
+    font-size: 34px;
+    line-height: 36px;
+}
+
+.header-content p {
+    font-size: 16px;
+}
+
+.custom-margin {
+    margin-right: 60px;
+}
+
+.span-border {
+    border-bottom: 2px solid rgba(0, 128, 0, 0.3);
+}

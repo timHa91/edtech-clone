@@ -1,0 +1,129 @@
+.signup-container {
+    max-height: 800px;
+    margin-top: 100px;
+}
+
+.no-background {
+    background: none !important;
+    border: none !important;
+    color: #0275d8 ;
+}
+
+.btn-group {
+    border: 1px solid rgba(211,211,211,0.5);
+}
+
+.btn-group button {
+    font-weight: 600;
+    padding: 0 28px;
+}
+
+.btn-group button:hover {
+    background-color: #0275d8 !important;
+    color: white;
+}
+
+.active {
+    background-color: #0275d8 !important;
+    color: white;
+}
+
+.info-content {
+    background-color: rgb(11, 33, 73);
+    color: white;
+    padding: 60px 0;
+    height: 737px;
+}
+
+.info-content h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.info-content h2 {
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+
+.user-role, .user-birthday {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.birthday-picker select  {
+    background-color: white;
+    color: black;
+    border-color: rgba(0, 0, 0, 0.1);
+    height: 48px;
+}
+
+.birthday-picker select:hover  {
+    border: 2px solid #0275d8 ;
+}
+
+.password p {
+    opacity: 0.5;
+}
+
+
+.register-button button {
+    background-color: white;
+    color: black;
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.register-button button:hover, .register-button:hover {
+    background-color: rgba(211,211,211,0.5);
+}
+
+.left-section, .right-section {
+    width: 40%;
+}
+
+.right-section {
+    background-color: white;
+    height: 737px;
+    padding: 60px 0;
+    border: 0.5px solid black;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.user-role button {
+    height: 40px;
+}
+
+.invalid {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.invalid-border {
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.register .list-group-item {
+    height: 48px;
+    width: 368px;
+}
+
+svg {
+  height: 100%;
+  width: 48px;
+}
+
+.form-label h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-label p {
+    opacity: 0.5;
+    font-size: 14px;
+}

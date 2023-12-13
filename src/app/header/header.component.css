@@ -1,0 +1,17 @@
+* {
+    font-weight: 600;
+}
+
+.no-background {
+    background: none !important;
+    border: none !important;
+    color: blue;
+}
+
+.nav-logo a svg:hover {
+    fill: blue;
+}
+
+input::placeholder {
+    color: blue;
+}

@@ -1,0 +1,20 @@
+<div class="hero-container row justify-content-center align-items-center mt-5">
+    <div class="hero-img col-4  custom-margin">
+        <img class="_zdxht7" src="https://cdn.kastatic.org/images/lohp/hero_student_collage_US_2x.png"
+            srcset="https://cdn.kastatic.org/images/lohp/hero_student_collage_US_2x.png 2x, https://cdn.kastatic.org/images/lohp/hero_student_collage_US_1x.png 1x"
+            alt="" data-test-id="hero-image">
+    </div>
+    <div class="header-content col-6">
+        <h1><span>Für jeden Schüler,</span><br><span>jede Klasse.</span><br><span class="span-border">Tolle
+                Lernerfolge.</span></h1>
+        <p>Wir sind eine gemeinnützige Organisation mit der Mission, eine kostenlose, erstklassige Ausbildung für jeden,
+            überall, anzubieten.</p>
+        <div class="button-group d-flex gap-2">
+            <button routerLink="signup" class="col-4 btn btn-primary">Lernende</button>
+            <button [queryParams]="{userRole: 'lehrer'}" [routerLink]="'/signup'"
+                class="col-4 btn btn-primary">Lehrer/innen</button>
+            <button [queryParams]="{userRole: 'eltern'}" [routerLink]="'/signup'"
+                class="col-4 btn btn-primary">Eltern</button>
+        </div>
+    </div>
+</div>

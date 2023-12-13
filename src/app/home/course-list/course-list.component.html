@@ -1,0 +1,28 @@
+<div class="course-list-container row justify-content-around">
+    <div class="col-6 left-course-list">
+        <div *ngFor="let course of leftCourseList; let isLast=last" class="category">
+            <button appHoverUnderline (click)="course.isVisible = !course.isVisible"
+                class="btn btn-primary no-background" type="button"><img [src]="course.categoryLogo" width="45"
+                    height="45" class="_1yvsftr" alt="">{{course.category}}</button><i [class.rotate]="course.isVisible"
+                class="fas fa-angle-down"></i>
+            <ul class="multi-column-dropdown" *ngIf="course.isVisible">
+                <li appHoverUnderline *ngFor="let courseName of course.courses"><a href="">{{courseName.title}}</a>
+                </li>
+            </ul>
+            <hr *ngIf="!isLast">
+        </div>
+    </div>
+    <div class="col-6 right-course-list">
+        <div *ngFor="let course of rightCourseList; let isLast=last" class=" category">
+            <button appHoverUnderline (click)="course.isVisible = !course.isVisible"
+                class="btn btn-primary no-background" type="button"><img [src]="course.categoryLogo" width="45"
+                    height="45" class="_1yvsftr" alt="">{{course.category}}</button> <i
+                [class.rotate]="course.isVisible" class="fas fa-angle-down"></i>
+            <ul class="multi-column-dropdown" *ngIf="course.isVisible">
+                <li appHoverUnderline *ngFor="let courseName of course.courses"><a href="">{{courseName.title}}</a>
+                </li>
+            </ul>
+            <hr *ngIf="!isLast">
+        </div>
+    </div>
+</div>
